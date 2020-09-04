@@ -1,7 +1,11 @@
- int x ,y, z ;
+//code for 2nd system .
+// By Abhinav
+int x ,y, z ;
 void setup()
 {
   Serial.begin(9600);
+  Serial.println("Code by #ATALL youtube channel \n Subscribe to this channel");
+  delay(2000);
   pinMode(13, OUTPUT);
   pinMode(A0, INPUT);
   digitalWrite(13,LOW);
