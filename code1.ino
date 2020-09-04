@@ -4,8 +4,9 @@ int x ,y ;
 void setup()
 {
   Serial.begin(9600);
-  Serial.println("Code by #ATALL");
- pinMode(A0, INPUT);
+  Serial.println("Code by #ATALL youtube channel \n Subscribe to this channel");
+  delay(2000);
+  pinMode(A0, INPUT);
 }
 
 void loop()
