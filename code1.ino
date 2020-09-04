@@ -1,8 +1,11 @@
- int x ,y ;
+//Code for 1st system 
+//By #ATALL youtube channel. 
+int x ,y ;
 void setup()
 {
   Serial.begin(9600);
-  pinMode(A0, INPUT);
+  Serial.println("Code by #ATALL");
+ pinMode(A0, INPUT);
 }
 
 void loop()
